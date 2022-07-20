@@ -1,0 +1,13 @@
+name: ci-python-workflow
+on: [push]
+
+jobs: 
+  check-application:
+    runs: windows-local
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9.8
+      - run: python soma_test.py
+        run: python soma.py
