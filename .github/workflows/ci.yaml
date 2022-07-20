@@ -10,4 +10,4 @@ jobs:
         with:
           python-version: 3.9.8
       - run: python soma_test.py
-        run: python soma.py
+      - run: python soma.py
