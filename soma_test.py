@@ -1,5 +1,5 @@
 # import pytest
-# from pytest_mock import mocker
+# from pytest_mock import mocker - biblioteca para mocar dados
 from soma import adicao
 
 # teste função soma 
